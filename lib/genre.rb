@@ -3,7 +3,7 @@ require_relative "concerns/findable.rb"
 class Genre 
   
   attr_accessor :name
-   extend Concerns::Findable
+  extend Concerns::Findable
   @@all = [] 
   
   def initialize(name)
