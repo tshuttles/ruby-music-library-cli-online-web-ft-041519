@@ -31,7 +31,7 @@ class MusicLibraryController
           list_genre
         elsif input == "play song" 
           play_song 
-        elsif input == "exit" 
+        else 
           
   end 
 end 
