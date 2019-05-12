@@ -2,6 +2,6 @@ class MusicLibraryController
   
   def initialize(path)
     @path = path 
-    file = MusicLibraryController.new(path)
+    file = MusicImporter.new(path)
   end 
 end 
