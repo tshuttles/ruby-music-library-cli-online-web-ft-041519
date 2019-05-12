@@ -40,6 +40,6 @@ class MusicLibraryController
   
   def list_songs 
     song_list = Song.all.sort {|song| song.name} 
-    song_list = 
+    song_list.each_with_index 
   end 
 end 
