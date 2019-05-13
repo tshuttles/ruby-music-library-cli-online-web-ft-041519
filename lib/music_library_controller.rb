@@ -74,7 +74,7 @@ class MusicLibraryController
     song_number = gets.strip.to_i  
     songs = Song.all 
     if (1..songs.length).include?(song_number)
-      song_number = songs
+      song_number = songs[song_number - 1]
     end 
     # puts "Playing #{song.name} by #{song.artist.name}"
   end 
